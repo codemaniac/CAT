@@ -27,7 +27,7 @@ while True:
   y = random.randint(2, 20)  
   ans = raw_input('%d X %d = ? ' % (x,y))
   while not ans.isdigit():
-    ans = raw_input('INVALID CHOICE !!\n%d X %d = ? ' % (x,y))
+    ans = raw_input('INVALID CHOICE !! %d X %d = ? ' % (x,y))
   ans = int(ans)
   cnt += 1
   if ans == x*y:

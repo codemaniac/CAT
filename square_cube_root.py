@@ -28,7 +28,7 @@ while True:
   p_word = 'square root' if p == 2 else 'cube root'  
   ans = raw_input('%s of %d = ? ' % (p_word,x**p))
   while not ans.isdigit():
-    ans = raw_input('INVALID CHOICE !!\n%s of %d = ? ' % (p_word,x))
+    ans = raw_input('INVALID CHOICE !! %s of %d = ? ' % (p_word,x**p))
   ans = int(ans)
   cnt += 1
   if ans == x:

@@ -27,7 +27,7 @@ while True:
   x = random.randint(1, 99999)
   ans = raw_input("%d divisible by %d ? (y/n): " % (x, n)).lower()
   while ans not in ['y','n']:
-    ans = raw_input("INVALID CHOICE !!\n%d divisible by %d ? (y/n): " % (x, n)).lower()
+    ans = raw_input("INVALID CHOICE !! %d divisible by %d ? (y/n): " % (x, n)).lower()
   cnt += 1
   if (x % n == 0):
     if ans == 'y':
