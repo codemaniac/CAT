@@ -42,5 +42,5 @@ while True:
     print 'Correct !!'
     score += 1
   else:
-    print 'Wrong !!'
+    print 'Wrong !! correct answer = %d' % correct_ans
     score -= 1
